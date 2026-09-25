@@ -53,3 +53,16 @@ function compareEquality(a, b) {
 }
 
 console.log(compareEquality(10, "10")); // Usando == 10 é igual a "10", Usando === vai ser diferente 
+
+//=============================================================================================================================================
+
+/* Comparação com o operador de desigualdade */
+
+function testNotEqual(val) {
+    if (val != 99) {
+    return "Não é igual";
+    }
+    return "Igual";
+}
+
+console.log(testNotEqual(99));
